@@ -1,4 +1,7 @@
-﻿bool IsPalindrome(int x)
+﻿/*
+ * https://leetcode.com/problems/palindrome-number/
+ */
+bool IsPalindrome(int x)
 {
     var str = x.ToString();
     var str2 = new string(str.Reverse().ToArray());

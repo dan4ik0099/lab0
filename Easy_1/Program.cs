@@ -1,4 +1,7 @@
-﻿int[] TwoSum(int[] nums, int target)
+﻿/*
+ * https://leetcode.com/problems/two-sum/
+ */
+int[] TwoSum(int[] nums, int target)
 {
     for (var i = 0; i < nums.Length; i++)
     {

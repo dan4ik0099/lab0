@@ -1,4 +1,7 @@
-﻿int Reverse(int x) {
+﻿/*
+ * https://leetcode.com/problems/reverse-integer/submissions/
+ */
+int Reverse(int x) {
     var result = 0;
     var prev = 0;
     while(x != 0){
